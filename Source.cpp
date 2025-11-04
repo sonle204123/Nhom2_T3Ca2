@@ -8,7 +8,10 @@ int tong(int a, int b)
 	return tong;
 }
 int hieu(int a, int b);
-int tich(int a, int b);
+int tich(int a, int b)
+{
+	return a * b;
+}
 float thuong(int a, int b);
 int main()
 {
@@ -20,9 +23,5 @@ int main()
 	cin >> b;
 	cout << "Tong =" << tong(a, b);
 	system("pause");
-	int tich(int a, int b)
-{
-    return a * b;
-}
 	return 0;
 }
