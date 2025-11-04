@@ -36,7 +36,6 @@ int main()
 	cout<<"Hieu =" << hieu(a,b)<<endl;
 	cout << "Tich =" << tich(a,b)<<endl;
 	cout << "Thuong =" <<thuong(a,b)<<endl;
-
 	system("pause");
 	return 0;
 }
